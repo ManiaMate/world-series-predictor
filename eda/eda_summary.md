@@ -13,6 +13,10 @@ Data files live [here](../data/), and were sourced from [Shane McDonald's Comput
 - Potential target or interaction signals
 - _What did we learn from our EDA?_
 
+![Average ML for Wins by Team](imgs/avg_winner_ml.png)
+![Runs vs. O/U](imgs/runs_ou.png)
+![Wins by Team](imgs/wins_by_team.png)
+
 ## Looking Ahead
 - Initial ideas for features and any anticipated challenges (imbalance, sparcity, etc.)
 - What issues or open questions remain?
