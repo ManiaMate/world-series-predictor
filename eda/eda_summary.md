@@ -35,8 +35,21 @@ Additionally, it seems that when comparing sports books original O/U on runs sco
 
 We also recognize that most teams seem to win a lot more games at home rather than away (at least 50%+). This makes a lot of sense intuitively since teams usually travel the night or day before having to play a baseball game in a region they are unfamiliar with, so there are several of those factors including travel fatigue that could affect a team's performance. 
 
+The image below shows how strongly each team was expected to lose on average. 
+We can see that the Colorado Rockies were underdogs in most of their wins,
+whereas the LA Dodgers were heavily favored in most of their wins. This graphic serves as a sort of proxy for power ratings.
+
 ![Average ML for Wins by Team](imgs/avg_winner_ml.png)
+
+This next image shows the total number of runs scored in a game against the over/under score (averaged).
+We see that O/U is generally an accurate predictor of whether a game will be low- or high-scoring.
+
 ![Runs vs. O/U](imgs/runs_ou.png)
+
+This last image shows the distribution of total wins for each team throughout the 2024-2025 season.
+Color also indicates home versus away wins. As expected, we find that the Rockies won the least games and the Dodgers won the most.
+This aligns with our previous findings.
+
 ![Wins by Team](imgs/wins_by_team.png)
 
 ## Looking Ahead
