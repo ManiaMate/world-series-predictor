@@ -49,8 +49,7 @@ for col in ["Home ML", "Away ML"]:
 
 
 # Train-test split on logistic regression / decision tree
-# Impute missing values with column means (league average assumption)
-X = df[feature_cols].fillna(df[feature_cols].mean())
+X = df[feature_cols].fillna(0)
 y = df["Home_Win"]
 
 cutoff_date = "2025-09-01"
