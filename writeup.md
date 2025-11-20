@@ -27,6 +27,16 @@ We evaluated performance using Accuracy and ROC-AUC scores. The Random Forest ou
 *   **Random Forest:** ~59% Accuracy, 0.601 AUC
 *   **Random:** ~52% Accuracy, 0.517 AUC
 
+**Visualizations:**
+
+![Logistic Regression Confusion Matrix](imgs/logisticreg.png)
+
+Confusion Matrix of Logistic Regression on Test Set Data
+
+![Random Forest Confusion Matrix](imgs/randomforest.png)
+
+Confusion Matris of Random Forest on Test Set Data
+
 ## Analysis & Future Work
 **Strengths & Weaknesses:**
 Our baseline has a decent amount of variety, from random guessing to complex non-linear modeling. The Random Forest (58.5% accuracy) outperforms the linear model because it captures conditional interactions (e.g., a high ERA matters less against a weak opponent) that Logistic Regression misses. However, even this strong baseline ignores offensive and bullpen performance, limiting its ceiling.
